@@ -284,28 +284,34 @@ font-weight: bold;
 font-size: 16px;
 line-height: 0.53;
 color: var(--white-color);
+margin-left: 124px;
 cursor: pointer;
 }
 .modal-title{
   margin: 0;
 }
 .form{
-  margin-top: 30px;
+  text-align: left;
+ padding: 12px 40px 40px 40px;
 }
 .form-label{
-  position: absolute;
-  top: -55%;
-  left: 0;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+margin-bottom: 4px;
 }
 .form-label_comment{
-  position: absolute;
-  top: -17%;
-  left: 0;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+margin-bottom: 4px;
 }
 .icons-modal{
   position: absolute;
-  top: 11px;
-  left: 12px;
+  top: 50%;
+  left: 3%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field{
@@ -313,11 +319,9 @@ cursor: pointer;
   flex-direction: column;
   position: relative;
   color: #757575;
-  margin-left: 41px;
-  margin-right: 39px;
 }
 .form-field:nth-child(-n+3){
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .form-policy{
   display: inline-block;
@@ -331,7 +335,7 @@ cursor: pointer;
   display: flex;
   align-items: center;
   color: #757575;
-margin-left: 54px;
+  justify-content: center;
 }
 .checkbox{
   appearance: none;
@@ -346,12 +350,19 @@ margin-left: 54px;
   background-position: center;
 }
 textarea{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.01em;
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
   resize: none;
   height: 120px;
   margin-bottom: 20px;
   padding-left: 16px;
+  padding-top: 12px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
@@ -378,7 +389,6 @@ background-color: rgba(0, 0, 0, 0.2);
   left: 50%;
   top: 50%;
 width: 528px;
-height: 581px;
   transform: translate(-50%,-50%);
   background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -788,6 +798,9 @@ margin-bottom: 9px;
   display: flex;
 }
 .footer-input{
+  font-size: 16px;
+line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
   width: 358px;
   height: 50px;
   padding-left: 16px;
